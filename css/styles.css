@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-  padding: 3% 15% ;
+  padding: 3% 15% 7%;
 }
 
 h1{
@@ -48,12 +48,19 @@ h1{
 .title-img{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 #features{
   text-align: center;
-  margin: 50px;
+  margin: 0 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-family: "Montserrat";
+  background-color: #fff;
+  position: relative;
+
 }
 
 .awesome {
@@ -73,4 +80,49 @@ h1{
 
 .fas:hover{
   color: #ff4c68;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+    color: white;
+
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-images{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
 }
