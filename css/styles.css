@@ -126,3 +126,46 @@ h2{
 .pricing-column{
   padding: 3% 2%;
 }
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+#cta{
+  padding: 7% 15% 5%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.dogLove {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+  color: grey;
+}
+
+.footer-icon{
+  color: black;
+}
+
+.icon-item{
+  margin: 20px 10px;
+}
